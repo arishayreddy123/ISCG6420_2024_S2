@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="./shopping-cart.js"></script>
+<link rel="stylesheet" href="./shopping-cart.css"
+</head>
+<body>
+<h1> Add Books to the Shopping Cart</h1>
+<!-- Shopping cart-->
+ <div id="txtContainer">
+    <!-- Book area-->
+     <div class="display products" id="txtBookInfo">Books</div>
+     <!-- Shopping cart area-->
+      <div class="display">
+<table>
+    <tr>
+        <td colspan="2">
+            <div id="txtCart">Cart</div>
+        </td>
+    </tr>
+    <tr>
+        <td class="right">
+            <input type="button" value="Clear Cart" onclick="clearCart();" />
+        </td>
+        <td class="left">
+            <input type="button" value="Check Out" onclick="checkOut();" />
+        </td>
+    </tr>
+</table>
+
+      </div>
+
+
+ </div>
+
+
+</body>
+</html>
